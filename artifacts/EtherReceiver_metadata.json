@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "EtherReceived",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyLibrary.sol": "EtherReceiver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyLibrary.sol": {
+			"keccak256": "0x1629aa814dded774784596c4023aacd6a6e92d954083709fe52e4b27d23f0a38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a374c4599eb5f9b1305a3c7c571eb10eb67ef9f4815ccf4c6bdd4a1a43bd02e5",
+				"dweb:/ipfs/QmTX4hYwP52gTC9brkbm2iVkfFyiyL4BSt8syXqHCYBky6"
+			]
+		}
+	},
+	"version": 1
+}

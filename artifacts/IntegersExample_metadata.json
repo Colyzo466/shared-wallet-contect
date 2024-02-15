@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addIntegers",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "negativeInteger",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nonNegativeInteger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_negative",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nonNegative",
+						"type": "uint256"
+					}
+				],
+				"name": "setIntegers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyLibrary.sol": "IntegersExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyLibrary.sol": {
+			"keccak256": "0xaa5c725c2b77d42c852368f3ee051b54b425e00c7c5938200fb7293c85364ba6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b3d5bccfd6b84f86e94fa42de0409fedaf9d18467e263262db63877adc49347",
+				"dweb:/ipfs/QmdM15eioescmQbX47YiVxZy3pe1MuernvqDEYL11goxGo"
+			]
+		}
+	},
+	"version": 1
+}

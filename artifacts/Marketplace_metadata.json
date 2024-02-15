@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "commonFunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NewContract2.sol": "Marketplace"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NewContract2.sol": {
+			"keccak256": "0xa4265b74b3e07ea1a5033891e5007933d7559951f67c977c7f3b34d86055e5a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8c22ca633d047b30fdd172e908fe48014b09112c665a034abf30fc7833ba996",
+				"dweb:/ipfs/Qmbzdnqxe8ykwoGM1jejFesMrXokRn9e83tS9gKSu4bcGz"
+			]
+		}
+	},
+	"version": 1
+}
